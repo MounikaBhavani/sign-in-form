@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 238, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    
+}
+.container{
+    border: 2px solid rgb(211, 238, 248);
+    width: 50%;
+    height: 50vh;
+    box-shadow: 5px 5px 3px rgb(180, 187, 199);
+    
+}
+
+.parent{
+    display: flex;
+    
+    
+}
+.child1{
+    width:50%;
+    height: 50vh;
+    border: 2px solid  rgb(212, 231, 225);
+    
+    
+}
+.child2{
+    width:50%;
+    border: 2px solid rgb(212, 231, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    margin-left:55px;
+    color: white;
+    background-color:rgb(99, 99, 224);
+    border: 1px solid rgb(99, 99, 224);
+}
+.c1{
+    padding: 80px;
+    padding-top:120px;
+    
+}
+.c2{
+    font-size: 25px;
+}
